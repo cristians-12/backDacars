@@ -12,8 +12,8 @@
     <h2>
         El producto es {{$product }}
     </h2>
-    @if ($product == 'hentai')
-    <img width="300" src="https://pbs.twimg.com/media/GB18Ehha0AA5JZk?format=jpg&name=large" alt="">
+    @if ($product == 'ropa')
+    <img width="300" src="https://i.pinimg.com/236x/ab/50/4a/ab504a993206ae2151782a692c5c2a05.jpg" alt="">
     @endif
 </body>
 

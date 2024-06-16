@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="{{url('/products/hentai')}}">Ver pagina</a>
+    <a href="{{url('/products/ropa')}}">Ver pagina</a>
 </body>
 </html>
