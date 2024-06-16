@@ -18,6 +18,6 @@ class AuthController extends Controller
     }
     public function xd()
     {
-        return "Hola tilin";
+        return view("hola");
     }
 }
