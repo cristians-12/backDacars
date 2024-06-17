@@ -10,4 +10,8 @@ Route::get('/si', function () {
     return 'hola';
 });
 
+Route::view('/register', 'register');
+
+Route::post('/registrar', [AuthController::class, 'register']);
+
 Route::get('/products/{product}', [ProductController::class, 'product']);
